@@ -1,0 +1,130 @@
+# =====================================================
+#   .gitignore — Employee & Project Management Analytics
+#   Power BI + SQL Server Project
+# =====================================================
+
+
+# ─── Power BI ─────────────────────────────────────
+# Power BI temp / cache files
+*.pbix.bak
+*.pbitool.json
+.powerbi/
+PowerBIDesktop*.log
+
+# Power BI local settings (machine-specific paths)
+*.DataMashup
+*.Model.bim.layout
+
+
+# ─── SQL Server / SSMS ────────────────────────────
+# SQL Server backup files
+*.bak
+*.mdf
+*.ldf
+*.ndf
+
+# SSMS local settings
+*.suo
+*.user
+*.sln.docstates
+
+# SQL Profiler trace files
+*.trc
+
+
+# ─── Data Files (sensitive / large) ──────────────
+# Uncomment below if your CSV data is sensitive
+# and should NOT be pushed to GitHub
+# Data/employees.csv
+# Data/Head_Shots.csv
+
+# Large raw data exports
+*.xlsx
+*.xls
+Raw_Data/
+exports/
+backups/
+
+
+# ─── OS Generated ─────────────────────────────────
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Linux
+*~
+.directory
+.Trash-*
+
+
+# ─── Python (if any scripts used) ─────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+.env
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+
+# ─── Node / npm (if any web components) ──────────
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+
+
+# ─── VSCode / Editor ──────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+*.temp
+
+
+# ─── Logs & Reports (auto-generated) ─────────────
+*.log
+logs/
+*.error
+
+
+# ─── Secrets & Environment ────────────────────────
+.env
+.env.local
+.env.*.local
+secrets.json
+config.local.json
+credentials.json
+*.key
+*.pem
+*.cert
+
+
+# ─── Keep These (force-include) ───────────────────
+# These are intentionally tracked:
+!README.md
+!LICENSE
+!.gitignore
+!Employee_Project_Analytics.sql
+!Dashboard_img.png
+!logo.png
+!Data/*.csv
