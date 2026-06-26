@@ -19,7 +19,7 @@
 
 <br/>
 
-![Dashboard Preview](Dashboard_img.png)
+![Dashboard Preview](Dashboard_Images/Dashboard_img.png)
 
 </div>
 
