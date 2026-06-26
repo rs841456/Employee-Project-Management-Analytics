@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="Aaaets/logo.png" alt="Logo" width="160"/>
+<img src="Assets/logo.png" alt="Logo" width="160"/>
 
 # 🏢 Employee & Project Management Analytics Dashboard
 
